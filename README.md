@@ -27,8 +27,8 @@ CSV - pip install csv
 
 The second row till the amount of data provided looks the following.
 
-SENTENCE									                                                    CATEGORY
-"Your analyticals skills are well profound!"					                        0
+sentence                                                                      category
+"Your analyticals skills are well profound!"                                  0
 "Your project is looking good but make sure to follow the principles of DSR."	1
 "Make sure to show us a demo next time"						                            2
 
@@ -42,7 +42,7 @@ Please provide as much diverse data to train the model as optimal as possible. A
 5. For testing the data and showing it in an ENA, you need to provide another CSV file. This time with all the data you want to plot. 
 The dataset must contain over 250 rows. Else the ENA won't be constructed. The file file is structured as follows.
 
-TEXT										                                                      NAME		ROLE		          nameFor		assessment		    scale
+text name role nameFor assessment scale
 "Your analyticals skills are well profound!"					                        Marc B		Processmanager	Stan D		Process Meeting		8
 "Your project is looking good but make sure to follow the principles of DSR."	Marc B		Processmanager	Jarno M		EA			          6
 "Make sure to show us a demo next time"						                            Marcel S	Lecturer	      Ricky K		Presentation		  6

@@ -19,6 +19,9 @@ This readme is for the use PARSLE. Please read this guide carefully before you s
 - Stanza - pip install stanza
 - Transformers - pip install transformers
 - CSV - pip install csv
+- Rpy2 - pip install rpy2
+- Sci-kit - pip install scikit-learn
+- Plotly - pip install plotly
 
 4. Once you've installed all the necessary components you need to provide the application an Excel file as a trainingsset with the following requirements. You can skip this step and go to step 5 if you want to use the standard model.
 

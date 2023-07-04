@@ -41,10 +41,11 @@ text name role nameFor assessment scale
 
 You also need to place this file in the same PARSLE folder where everything is located. This time with name "data_set". This name must be exact, else it won't work.
 
-5. Once you've managed to do these things, you can start the application within VSCode. We recommend to use the main.ipynb file since there were issues plotting the data in a normal Python environment. 
+6. Once you've managed to do these things, you can start the application within VSCode. We recommend to use the main.ipynb file since there were issues plotting the data in a normal Python environment. 
 
 Within the first prompt, enter the name of the Excel file you provided.
 If you don't do this a new model won't be created and the standard model will be used.
+You should train this model the first time since the standard model isn't loaded.
 With the second prompt, you can test and plot the data provided. 
 The application returns a CSV file with the name data_ENA to plot or to manually use for the ENA web tool.
 The last prompt will ask you if you want to plot the generated data from data_set.
